@@ -1,0 +1,37 @@
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.navbar {
+    background-color: #FAFAFA;
+    height: 12vh;
+}
+
+.row-presentation {
+    background: #FAFAFA url("https://64.media.tumblr.com/76656c275a2ecc49cfe82675e954b138/tumblr_mho62cS6Aw1rjeb8co1_500.gif") center repeat-x;
+    min-height: 88vh;
+}
+
+.row-services {
+    min-height: 100vh;
+    background-color: blue;
+}
+
+.col-turn {
+    background-color: #40585C;
+    color: #FAFAFA;
+}
+
+.col-intro {
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+.btn-primary {
+    background-color: #76A1A8;
+    border-color: #76A1A8;
+}
+
+.btn-primary:hover {
+    background-color: #49A6B7;
+    border-color: #49A6B7;
+}
