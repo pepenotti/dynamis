@@ -63,7 +63,7 @@ body{
 }
 
 .service-card {
-    background: rgba(0, 0, 0, 0.6);;
+    background: rgba(0, 0, 0, 0.6);
     padding: 2rem;
     font-size: 1.05rem;
     color: #FAFAFA;
@@ -72,4 +72,28 @@ body{
 
 .service-icon {
     font-size: 4rem;
+}
+
+#prof-photo-a {
+    background-image: url(../img/prof-photo-a.jpg);
+}
+
+#prof-photo-b {
+    background-image: url(../img/prof-photo-b.jpg);
+}
+
+.prof-photo {
+    min-height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.6);
+}
+
+.prof-social {
+    font-size: 1.5rem;
 }
