@@ -63,10 +63,11 @@ body{
 }
 
 .service-card {
-    background: rgba(0, 0, 0, 0.4);;
+    background: rgba(0, 0, 0, 0.6);;
     padding: 2rem;
     font-size: 1.05rem;
-    color: #FAFAFA
+    color: #FAFAFA;
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
 }
 
 .service-icon {
