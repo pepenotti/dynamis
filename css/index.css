@@ -19,7 +19,7 @@ body{
 
 .row-services {
     min-height: 100vh;
-    background-color: #258794;
+    background: rgba(0, 0, 0, 0.4);;
 }
 
 .row-prof {
@@ -56,9 +56,10 @@ body{
     border: 0;
 }
 
-#svc-image {
-    height: 10%;
-    width: 50%;
+#services {
+    background-image: url(../img/service.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .service-card {
