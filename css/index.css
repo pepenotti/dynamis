@@ -35,6 +35,7 @@ body{
 .col-turn {
     background-color: #40585C;
     color: #FAFAFA;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .col-info {
@@ -59,8 +60,15 @@ body{
 #services {
     background-image: url(../img/service.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
+
+@media (max-width: 767.98px) { 
+    #services {
+        background-image: url(../img/service-sm.jpg);
+        background-position: center;
+    }
+ }
 
 .service-card {
     background: rgba(0, 0, 0, 0.6);
