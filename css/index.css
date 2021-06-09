@@ -1,5 +1,17 @@
 body{
     background-color: #FAFAFA;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    background-image: url(../img/only-logo.png);
+    height: 100%;
+    width: auto;
 }
 
 .nav-link {
@@ -12,9 +24,32 @@ body{
 }
 
 .row-presentation {
-    background: #FAFAFA url("https://64.media.tumblr.com/76656c275a2ecc49cfe82675e954b138/tumblr_mho62cS6Aw1rjeb8co1_500.gif") center repeat-x;
-    background-blend-mode: color-burn;
+    /* background: url("../img/pulgar-2.jpeg"); */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: -10%;
     min-height: 88vh;
+}
+
+.presentation-image-container{
+    width: 90%;
+    height: 30vh;
+}
+
+.presentation-image {
+    background: url("../img/pulgar-2.jpeg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 1px 4px 3px #fafafa;
+}
+
+#presentation-hr {
+    border: 1px solid black;
+    opacity: 1;
 }
 
 .row-services {
