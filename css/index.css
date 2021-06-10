@@ -23,12 +23,23 @@ a {
     min-height: 12vh;
 }
 
+.custom-toggler {
+    background-color: #7DAAB3;
+    opacity: 0.7;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.2)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
+}
+
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0,9)
+} 
+
 .row-presentation {
-    /* background: url("../img/pulgar-2.jpeg"); */
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: -10%;
+    background: #FAFAFA url("https://64.media.tumblr.com/76656c275a2ecc49cfe82675e954b138/tumblr_mho62cS6Aw1rjeb8co1_500.gif") center repeat-x;
+    background-blend-mode: color-burn;
     min-height: 88vh;
 }
 
@@ -45,6 +56,7 @@ a {
     width: 100%;
     height: 100%;
     box-shadow: inset 0px 1px 4px 3px #fafafa;
+    opacity: 0.8;
 }
 
 #presentation-hr {
@@ -71,6 +83,7 @@ a {
     background-color: #40585C;
     color: #FAFAFA;
     box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
 }
 
 .col-info {
@@ -93,7 +106,7 @@ a {
 }
 
 #services {
-    background-image: url(../img/service.jpg);
+    background-image: url(../img/gladiador.jpeg);
     background-size: cover;
     background-position: top;
 }
