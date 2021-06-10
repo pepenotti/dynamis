@@ -71,7 +71,7 @@ a {
 
 .row-services {
     min-height: 100vh;
-    background: rgba(0, 0, 0, 0.4);;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .row-prof {
@@ -116,16 +116,9 @@ a {
     background-position: top;
 }
 
-@media (max-width: 767.98px) { 
-    #services {
-        background-image: url(../img/service-sm.jpg);
-        background-position: center;
-    }
- }
-
 .service-card,
 .service-card-summary {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(51, 32, 27, 0.8);
     padding: 2rem;
     font-size: 1.05rem;
     color: #FAFAFA;
