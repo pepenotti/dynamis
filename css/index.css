@@ -10,13 +10,13 @@ a {
 
 .logo {
     background-image: url(../img/only-logo.png);
-    min-width: 1.3rem;
-    min-height: 1.3rem;
+    min-width: 1.5em;
+    min-height: 1.5em;
     height: 10vh;
     width: 10vh;
     background-size: 70%;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center;
 }
 
 .nav-link {
