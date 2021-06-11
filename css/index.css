@@ -29,7 +29,7 @@ a {
 }
 
 .custom-toggler {
-    background-color: #7DAAB3;
+    background-color: rgba(158, 177, 206, 0.5);;
     opacity: 0.7;
 }
 
@@ -81,6 +81,7 @@ a {
 
 .row-contact {
     background-color: #7DAAB3;
+    font-size: 1.2rem;
 }
 
 .col-turn {
@@ -154,4 +155,8 @@ a {
 
 .prof-social {
     font-size: 1.5rem;
+}
+
+#pepenotti {
+    font-size: 0.75rem;
 }
