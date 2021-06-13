@@ -1,1 +1,7 @@
 .vscode/settings.json
+/mailer/DTO/.vs/DTO
+/mailer/DTO/DTO.Mailer.API/bin/Debug/netcoreapp3.1
+/mailer/DTO/DTO.Mailer.API/obj
+/mailer/DTO/DTO.Mailer.API/appsettings.Development.json
+/mailer/DTO/DTO.Mailer.API/DTO.Mailer.API.csproj.user
+/mailer/DTO/DTO.Mailer.API/bin/Release/netcoreapp3.1
