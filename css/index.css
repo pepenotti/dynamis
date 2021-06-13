@@ -129,7 +129,7 @@ a {
 }
 
 #prof-photo-a {
-    background-image: url(../img/prof-photo-a.jpg);
+    background-image: url(../img/agos.jpg);
 }
 
 #prof-photo-b {
@@ -141,7 +141,7 @@ a {
     width: 25vh;
     border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-    background-size: cover;
+    background-size: 102%;
     background-position: center;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
