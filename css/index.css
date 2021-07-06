@@ -165,3 +165,26 @@ a {
     text-decoration: none;
     color: #FAFAFA;
 }
+
+#covid-clean {
+    background-image: url(../img/clean.png);
+}
+
+#covid-hands {
+    background-image: url(../img/hands.png);
+}
+
+#covid-mask {
+    background-image: url(../img/mask.png);
+}
+
+.covid-img {
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 10px;
+}

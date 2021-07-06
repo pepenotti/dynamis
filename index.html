@@ -111,8 +111,13 @@
                         <label for="turn-message" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="turn-message" placeholder="" rows="5"></textarea>
                     </div>
-                    <div class="col-12">
+                    <div class="col-sm-12 col-md-6 text-center text-md-start">
                         <button id="turn-submit" class="btn btn-primary mb-3">Solicitar turno</button>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-center text-md-end">
+                        <div id="covid-mask"  class="covid-img" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title="El uso de barbijo es <u>obligatorio</u>"></div>
+                        <div id="covid-hands" class="covid-img" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title="El paciente debe lavarse las manos antes y después de la sesión"></div>
+                        <div id="covid-clean" class="covid-img" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" title="Todos los elementos y superficies se limpian entre sesiones"></div>
                     </div>
                 </div>
             </div>
@@ -271,4 +276,5 @@
     crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/enable-tooltips.js"></script>
 </html>
