@@ -9,7 +9,7 @@ a {
 }
 
 .logo {
-    background-image: url(../img/only-logo.png);
+    background-image: url(../img/only-logo.webp);
     min-width: 1.5em;
     min-height: 1.5em;
     height: 10vh;
@@ -49,7 +49,7 @@ a {
 }
 
 .presentation-image {
-    background: url("../img/pulgar-2.jpeg");
+    background: url("../img/pulgar-2.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ a {
 }
 
 #services {
-    background-image: url(../img/gladiador.jpeg);
+    background-image: url(../img/gladiador.webp);
     background-size: cover;
     background-position: top;
 }
@@ -129,11 +129,11 @@ a {
 }
 
 #prof-photo-a {
-    background-image: url(../img/agos.jpg);
+    background-image: url(../img/agos.webp);
 }
 
 #prof-photo-b {
-    background-image: url(../img/sofi.jpeg);
+    background-image: url(../img/sofi.webp);
 }
 
 .prof-photo {
@@ -167,15 +167,15 @@ a {
 }
 
 #covid-clean {
-    background-image: url(../img/clean.png);
+    background-image: url(../img/clean.webp);
 }
 
 #covid-hands {
-    background-image: url(../img/hands.png);
+    background-image: url(../img/hands.webp);
 }
 
 #covid-mask {
-    background-image: url(../img/mask.png);
+    background-image: url(../img/mask.webp);
 }
 
 .covid-img {
