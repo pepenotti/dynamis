@@ -136,6 +136,10 @@ a {
     background-image: url(../img/sofi.webp);
 }
 
+#prof-photo-c {
+    background-image: url(../img/caro.webp);
+}
+
 .prof-photo {
     min-height: 25vh;
     width: 25vh;
