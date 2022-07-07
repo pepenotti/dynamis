@@ -145,9 +145,8 @@ a {
     width: 25vh;
     border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-    background-size: 102%;
+    background-size: 100%;
     background-position: center;
-    border: 1px solid rgba(0, 0, 0, 0.2);
     background-repeat: no-repeat;
     box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.6);
 }
