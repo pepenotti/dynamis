@@ -170,28 +170,6 @@ a {
     color: #FAFAFA;
 }
 
-#covid-clean {
-    background-image: url(../img/clean.webp);
-}
-
-#covid-hands {
-    background-image: url(../img/hands.webp);
-}
-
-#covid-mask {
-    background-image: url(../img/mask.webp);
-}
-
-.covid-img {
-    height: 3rem;
-    width: 3rem;
-    background-repeat: no-repeat;
-    background-size: 105%;
-    background-position: center;
-    display: inline-block;
-    border-radius: 50%;
-}
-
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
