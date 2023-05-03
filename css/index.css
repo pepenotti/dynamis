@@ -189,3 +189,18 @@ a {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+.dynamis-title {
+    font-weight: bold;
+}
+
+.dynamis-title-a{
+    font-size: 2em;
+    color: #494473;
+}
+
+.dynamis-title-b {
+    color: #9FAED0;
+    font-size: 1.5em;
+}
