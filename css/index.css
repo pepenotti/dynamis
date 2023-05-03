@@ -1,6 +1,6 @@
-body{
+body {
     background-color: #FAFAFA;
-    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 a {
@@ -28,14 +28,19 @@ a {
     min-height: 12vh;
 }
 
+.landing-data {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 .custom-toggler {
     background-color: rgba(158, 177, 206, 0.1);
     opacity: 0.7;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgba(0, 0, 0, 0,9)
-} 
+    border-color: rgba(0, 0, 0, 0, 9)
+}
 
 .navbar-toggler-icon {
     opacity: 0.5.custom-toggler;
@@ -47,13 +52,13 @@ a {
     min-height: 88vh;
 }
 
-.presentation-image-container{
+.presentation-image-container {
     width: 90%;
     height: 30vh;
 }
 
 .presentation-image {
-    background: url("../img/pulgar-2.webp");
+    background: url("../img/landing.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +153,8 @@ a {
     min-height: 25vh;
     width: 25vh;
     border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    behavior: url(PIE.htc);
+    /* remove if you don't care about IE8 */
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,31 +181,44 @@ a {
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    top: 10px; /* Place the button at the bottom of the page */
-    right: 10px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    color: antiquewhite; /* Text color */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    top: 10px;
+    /* Place the button at the bottom of the page */
+    right: 10px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    color: antiquewhite;
+    /* Text color */
     background: rgba(0, 0, 0, 0.5);
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 0.2em 0.4em; /* Some padding */
-    border-radius: 4px; /* Rounded corners */
-    font-size: 1.3em; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 0.2em 0.4em;
+    /* Some padding */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1.3em;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
 
 
 .dynamis-title {
     font-weight: bold;
 }
 
-.dynamis-title-a{
+.dynamis-title-a {
     font-size: 2em;
     color: #494473;
 }
